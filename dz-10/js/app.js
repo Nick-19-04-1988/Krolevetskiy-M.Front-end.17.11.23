@@ -174,8 +174,8 @@ for (let i = 2; i * 2 <= 10; i++) {
         let p;
             p = document.getElementById('out12');
 
-for (let i = 1; i <= 9;  i += 1) {
-    for (let j = 1; j <= 9; j += 1) {
+for (let i = 1; i <= 10;  i += 1) {
+    for (let j = 1; j <= 10; j += 1) {
       console.log(`${i} x ${j} = ${i * j}`);
       p.innerHTML +=`${i} x ${j} = ${i * j} <br />`;
     }
