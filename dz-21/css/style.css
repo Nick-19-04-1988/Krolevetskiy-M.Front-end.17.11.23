@@ -35,35 +35,24 @@ clip: rect(0 0 0 0);
 overflow: hidden;
 }
 
-#testimonials {
-    text-align: center;
-}
 .grid {
-    display: grid;
-    grid-template-columns: repeat(2 , 1fr);
-    grid-template-rows: repeat(1, auto);
-    align-items: center;
-    justify-items: start;
-    column-gap: 40px;
-    row-gap: 20px;
-    }
-
-h3 {
-    font-size: 30px;
-    text-transform: capitalize;
+display: grid;
+grid-template-columns: repeat(4 , 1fr);
+grid-template-rows: repeat(3 , auto);
+align-items: center;
+justify-items: start;
+column-gap: 40px;
+row-gap: 20px;
 }
-p {
-    font-size: 30px;
-    text-transform: capitalize;
-}
-
-.butt {
+.btn {
     background-color: aqua;
     width: 200px;
     height: 50px;
-    border-radius: 20%;
-    position: fixed;
-    top:300px;
-    right: 150px;
-    width: 35%;
+    border-radius: 38%;
+}
+.par {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: blue;
 }
