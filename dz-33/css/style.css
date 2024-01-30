@@ -21,7 +21,7 @@ max-width: 1300px;
 min-width: 360px;
 margin: 0 auto;
 padding: 0 15px;
-
+position: relative;
 }
 
 .visually-hidden {
@@ -34,25 +34,22 @@ padding: 0;
 clip: rect(0 0 0 0);
 overflow: hidden;
 }
-
-.grid {
-display: grid;
-grid-template-columns: repeat(4 , 1fr);
-grid-template-rows: repeat(3 , auto);
-align-items: center;
-justify-items: start;
-column-gap: 40px;
-row-gap: 20px;
+.img {
+    width: 500px;
+    display: block;
+    margin: auto;
 }
-.btn {
-    background-color: aqua;
-    width: 200px;
+.but {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20%;
+    width: 140px;
     height: 50px;
-    border-radius: 38%;
-}
-.par {
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    color: blue;
+    font-size: 25px;
+    color:rgb(237, 249, 6);
+    background-color: blue;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
 }
